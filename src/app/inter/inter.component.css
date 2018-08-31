@@ -1,0 +1,23 @@
+ form {
+     margin:auto;
+     width: 15%;
+ }
+ 
+ input{
+    display: block;
+    width: 100%;
+    margin:10px;
+    height: 25px;
+}
+
+select {
+    margin:10px;
+}
+span{
+    margin: 10px;
+}
+button {
+    display: block;
+
+    margin:10px;
+}

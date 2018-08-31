@@ -1,0 +1,33 @@
+
+
+<form #f='ngForm' novalidate>
+
+  <div>
+    <label>Position</label>
+    <input type='text' name='position' ngModel>
+  </div>
+
+  <div>
+    <label>Regioan</label>
+    <input type='text' name='region' ngModel>
+  </div>
+
+  <div>
+    <label>Status</label>
+      <select name="status" ngModel>
+        <option value="critical">criticalg</option>
+        <option value="warning">warning</option>
+        <option value="normal">normal</option>
+      </select>
+  </div>
+
+  <div>
+    <label>Manager</label>
+      <select name="parent" ngModel>
+        <option *ngFor='let position of positions' [value]='position'>{{position}}</option>
+        
+      </select>
+  </div>
+
+  <button type="submit" (click)="create(f.value)">Submit</button>
+</form>

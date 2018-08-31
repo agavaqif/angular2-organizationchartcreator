@@ -1,0 +1,85 @@
+[{
+    "name":"Elon",
+    "position":"CEO",
+    "children":[
+        {
+            "name":"Doctor",
+            "position":"VP",
+            "children":[
+                     {
+                         "name":"Martha",
+                         "position":"Manager",
+                         "children":[{
+                             "name":"Micheal",
+                             "position":"Representative",
+                             "children":[]
+                         },
+                         {
+                             "name":"Jackson",
+                             "position":"Representative",
+                             "children":[]
+ 
+                         }
+                                     ]
+                     },
+                     {
+                         "name":"Jack",
+                         "position":"Manager",
+                         "children":[]
+                     },
+                     {
+                         "name":"Nicola",
+                         "position":"Manager",
+                         "children":[{
+                             "name":"Bruce",
+                             "position":"Representative",
+                             "children":[]
+                         },
+                         {
+                             "name":"Lee",
+                             "position":"Representative",
+                             "children":[]
+ 
+                         }
+                                     ]
+                     }
+                 ]
+        },
+ 
+        {
+         "name":"Zelda",
+         "position":"VP",
+         "children":[
+                     {
+                         "name":"Aga",
+                         "position":"Manager",
+                         "children":[]
+                     },
+                     {
+                         "name":"Vagif",
+                         "position":"Manager",
+                         "children":[]
+                     },
+ 
+         ]
+ 
+        },
+        {
+         "name":"Ken",
+         "position":"VP",
+         "children":[
+                     {
+                         "name":"Yard",
+                         "position":"Manager",
+                         "children":[]
+                     },
+                     {
+                     "name":"Ward",
+                     "position":"Manager",
+                     "children":[]
+                     },
+ 
+ ]
+        }
+    ]
+ }];

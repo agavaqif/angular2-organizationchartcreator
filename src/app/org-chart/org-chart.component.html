@@ -1,0 +1,13 @@
+
+<div class='content'>
+<div *ngFor="let child of organization;trackBy:trackByFn" class='child-content' >
+    <div class='child {{child.status}}'[style.width.px]='width'  [style.height.px]='height'>
+        <p>{{child.position}}</p> <p>{{child.region}}</p>
+       
+    </div>  
+    <app-org-chart [organization]="child.children" *ngIf="child.children" ></app-org-chart>
+             
+</div>
+</div>
+
+

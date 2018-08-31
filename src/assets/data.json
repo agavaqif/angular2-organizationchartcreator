@@ -1,0 +1,99 @@
+
+     [{
+         "position":"VP",
+         "status":"critical",
+         "region":"",
+         "children":[
+            {
+                "position":"Sales Manager",
+                "region":"North America",
+                "status":"critical",
+                "children":[
+                    {
+                        "position":"Sales Lead",
+                        "region":"Canada",
+                        "status":"normal",
+                        "children":[
+                            {
+                                "position":"Sales Representative",
+                                "region":"Toronto",
+                                "status":"normal",
+                                "children":[]   
+                            },
+                            {
+                                "position":"Sales Representative",
+                                "region":"Vancouver",
+                                "status":"normal",
+                                "children":[]   
+                            }
+                        ]
+                    },
+                    {
+                        "position":"Sales Lead",
+                        "region":"USA",
+                        "status":"critical",
+                        "children":[
+                            {
+                                "position":"Sales Representative",
+                                "region":"New York",
+                                "status":"warning",
+                                "children":[]   
+                            },
+                            {
+                                "position":"Sales Representative",
+                                "region":"Dallas",
+                                "status":"critical",
+                                "children":[]   
+                            },
+                            {
+                                "position":"Sales Representative",
+                                "region":"Los Angeles",
+                                "status":"critical",
+                                "children":[]   
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "position":"Sales Manager",
+                "region":"Europe",
+                "status":"warning",
+                "children":[
+                    {
+                        "position":"Sales Lead",
+                        "region":"Germany",
+                        "status":"warning",
+                        "children":[
+                            {
+                                "position":"Sales Representative",
+                                "region":"Berlin",
+                                "status":"normal",
+                                "children":[]   
+                            },
+                            {
+                                "position":"Sales Representative",
+                                "region":"Frankfurt",
+                                "status":"critical",
+                                "children":[]   
+                            }
+                        ]
+                    },
+                    {
+                        "position":"Sales Lead",
+                        "region":"Italy",
+                        "status":"normal",
+                        "children":[
+                            {
+                                "position":"Sales Representative",
+                                "region":"Milan",
+                                "status":"normal",
+                                "children":[]   
+                            }
+                        ]
+                    }
+                ]
+            }
+         ]
+     }]
+ 
